@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" /> 
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <h1>Why Hillary Lost</h1>
+    <a href="./elizabethwarren.html" class="link">Elizabeth Warren</a>
+    <a href="./sosick.html" class="link">So Sick</a>
+    <a href="./chillary.html" class="link">Chillary</a>
+  </body>
+  <script>
+    if(window.location.hash == "#random") {
+      randomPage();
+	}
+	var random = document.createElement("button");
+	random.setAttribute("class", "button");
+	random.setAttribute("id", "random");
+	random.setAttribute("onclick", "randomPage()");
+	random.innerHTML = "Random";
+	document.body.appendChild(random);
+    function randomPage() {
+      var links = document.getElementsByClassName("link");
+      var i = Math.floor(Math.random()*links.length);
+      window.location.assign(links[i].getAttribute("href"));
+    }
+  </script>
+</html>
