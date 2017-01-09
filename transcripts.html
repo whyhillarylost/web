@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" /> 
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+	<title>Transcripts</title>
+  </head>
+  <body>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/0tyQUqZ6AA0?autoplay=1" frameborder="0" allowfullscreen></iframe>
+	<script>
+	  var clock = document.createElement("p");
+	  clock.setAttribute("id", "clock");
+	  document.body.appendChild(clock);
+	  var start = new Date();
+	  start.setYear(2016);
+	  start.setMonth(1);
+	  start.setDate(4);
+	  start.setHours(21);
+	  start.setMinutes(30);
+	  start.setSeconds(0);
+	  
+	  updateClock();
+	  setInterval("updateClock()", 100);
+	  
+	  function updateClock() {
+	    var now = new Date();
+		var diff = now.getTime() - start.getTime();
+		var days = Math.floor(diff / 86400000)
+		diff = diff - days * 86400000;
+		var hours = Math.floor(diff / 3600000);
+		diff = diff - hours * 3600000;
+		var minutes = Math.floor(diff / 60000);
+		diff = diff - minutes * 60000;
+		var seconds = Math.floor(diff / 1000);
+		var string =  "Time spent looking into it:&nbsp&nbsp" + days + " Days&nbsp&nbsp" + hours + " Hour";
+        if (hours != 1) { string += "s"; }
+        string += "&nbsp&nbsp" + minutes + " Minute";
+		if (minutes != 1) { string += "s"; }
+		string += "&nbsp&nbsp" + seconds + " Second";
+		if (seconds != 1) { string += "s"; }
+		document.getElementById("clock").innerHTML = string;
+	  }
+	</script>
+  </body>
+  <footer>
+    <a href="./index.html" class="link" id="index">Index</a>
+    <a href="./index.html#random" class="link" id="random">Random</a>
+  </footer>
+</html>
