@@ -70,6 +70,11 @@ iframe {
 	}
 }
 
+.website {
+	height: calc(100vh - 11ch);
+	width: auto;
+}
+
 img {
 	display: block;
 	margin-left: auto;
