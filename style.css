@@ -37,7 +37,7 @@ footer {
 }
 
 .link:hover, #index:hover, #random:hover {
-	background-color: gray;
+	background-color: #AA8;
 	transition: 0s;
 }
 
