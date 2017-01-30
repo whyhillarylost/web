@@ -83,7 +83,7 @@ img {
 	max-width: 100%;
 }
 
-.email {
+.email, .memo {
 	font-family: Arial, Helvetica, sans-serif;
 	border: solid;
 	padding: 1ch;
@@ -92,13 +92,13 @@ img {
 }
 
 @media (max-width: 80ch) {
-	.email {
+	.email, .memo {
 		margin-left: 0;
 		margin-right: 0;
 	}
 }
 
-.email blockquote {
+.email, .memo blockquote {
 	border-left: solid blue 1px; 
 	padding-left: 2ch;
 	margin-left: 0;
