@@ -98,7 +98,7 @@ img {
 	}
 }
 
-.email, .memo blockquote {
+.email blockquote, .memo blockquote {
 	border-left: solid blue 1px; 
 	padding-left: 2ch;
 	margin-left: 0;
