@@ -99,7 +99,7 @@ img {
 }
 
 .email blockquote, .memo blockquote {
-	border-left: solid blue 1px; 
+	border-left: solid #13A 1px; 
 	padding-left: 2ch;
 	margin-left: 0;
 }
@@ -126,4 +126,9 @@ th {
 
 th {
 	border-bottom: 5px solid #EAE1C2;
+}
+
+em {
+	font-style: normal;
+	background-color: #13A;
 }
