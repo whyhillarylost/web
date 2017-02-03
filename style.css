@@ -1,7 +1,11 @@
+/* Color Guide
+red #CC2121 white #CCC9AD blue #2921CC
+*/
+
 body {
 	background-color: black;
-	color: #EAE1C2;
-	font-family: Impact, Charcoal, sans-serif;
+	color: #CCC9AD;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
@@ -22,33 +26,37 @@ footer {
 	text-decoration: none;
 	font-size: 1em;
 	font-variant: small-caps;
+	font-weight: bold;
 	border-radius: 0.5ch;
 	transition: 2s;
 	margin: 0.2ch;
 }
 
+.video::after {
+	content: " \1F4FD";
+}
+
 .link, #index {
-	background-color: #C44343;
+	background-color: #CC2121;
 }
 
 #random {
-	background-color: #436EC4;
-	font-family: Impact, Charcoal, sans-serif;
+	background-color: #2921CC;
 }
 
 .link:hover, #index:hover, #random:hover {
-	background-color: #AA8;
+	background-color: #CCC9AD;
 	transition: 0s;
 }
 
 .link:hover, #index:hover {
-	text-shadow: 0 0 0.5ch #BB1515;
-	box-shadow: 0 0 1ch #BB1515;
+	text-shadow: 0 0 0.5ch #CC2121;
+	box-shadow: 0 0 1ch #CC2121;
 }
 
 #random:hover {
-	text-shadow: 0 0 0.5ch #13A;
-	box-shadow: 0 0 1ch #13A;
+	text-shadow: 0 0 0.5ch #2921CC;
+	box-shadow: 0 0 1ch #2921CC;
 }
 
 iframe {
@@ -99,7 +107,7 @@ img {
 }
 
 .email blockquote, .memo blockquote {
-	border-left: solid #13A 1px; 
+	border-left: solid #2921CC 1px; 
 	padding-left: 2ch;
 	margin-left: 0;
 }
@@ -118,17 +126,18 @@ table, th, td {
 }
 
 th {
-	background-color: #BB1515;
+	background-color: #CC2121;
 	color: black;
-	border-color: #EAE1C2;
+	font-style: bold;
+	border-color: #CCC9AD;
 	text-align: center;
 }
 
 th {
-	border-bottom: 5px solid #EAE1C2;
+	border-bottom: 5px solid #CCC9AD;
 }
 
 em {
 	font-style: normal;
-	background-color: #13A;
+	background-color: #2921CC;
 }
