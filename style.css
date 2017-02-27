@@ -6,14 +6,14 @@ body {
 	background-color: black;
 	color: #CCC9AD;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: x-large;
+	word-wrap: break-word;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
-	font-size: x-large;
-	word-wrap: break-word;
 }
 
-footer {
+footer, nav {
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
@@ -118,6 +118,11 @@ img {
 table {
 	align-self: center;
 	word-wrap: break-word;
+}
+
+table > caption {
+	font-size: larger;
+	font-weight: bold;
 }
 
 table, th, td {
