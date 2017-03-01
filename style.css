@@ -1,5 +1,6 @@
 /* Color Guide
-red #CC2121 white #CCC9AD blue #2921CC
+red #CC2121 white #CCC9AD blue #3333AA
+#2921CC
 */
 
 body {
@@ -20,7 +21,7 @@ footer, nav {
 }
 
 a:link {
-	color: #2921CC;
+	color: #3333AA;
 }
 
 a:visited {
@@ -58,7 +59,7 @@ a:active {
 }
 
 #random {
-	background-color: #2921CC;
+	background-color: #3333AA;
 }
 
 .link:hover, #index:hover, #random:hover {
@@ -72,8 +73,8 @@ a:active {
 }
 
 #random:hover {
-	text-shadow: 0 0 0.5ch #2921CC;
-	box-shadow: 0 0 1ch #2921CC;
+	text-shadow: 0 0 0.5ch #3333AA;
+	box-shadow: 0 0 1ch #3333AA;
 }
 
 iframe {
@@ -140,7 +141,7 @@ th {
 
 em {
 	font-style: inherit;
-	background-color: #2921CC;
+	background-color: #3333AA;
 }
 
 /* Blockquote: Email, Memo */
@@ -154,7 +155,7 @@ em {
 }
 
 .email blockquote, .memo blockquote {
-	border-left: solid #2921CC 2px; 
+	border-left: solid #3333AA 2px; 
 	padding-left: 2ch;
 	margin-left: 0;
 }
