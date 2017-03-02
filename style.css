@@ -144,6 +144,11 @@ em {
 	background-color: #3333AA;
 }
 
+mark {
+	background-color: #3333AA;
+	color: inherit;
+}
+
 /* Blockquote: Email, Memo */
 .email, .memo {
 	font-family: Arial, Helvetica, sans-serif;
@@ -159,6 +164,17 @@ em {
 	padding-left: 2ch;
 	margin-left: 0;
 }
+
+.email header {
+	display: flex;
+	flex-direction: column;
+}
+
+.email > header > .from { order: 1; }
+.email > header > .to { order: 2; }
+.email > header > .cc { order: 3; }
+.email > header > .date { order: 4; }
+.email > header > .subject { order: 5; }
 
 /* Mobile */
 @media (max-width: 82ch) {
