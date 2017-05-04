@@ -5,7 +5,7 @@ red #CC2121 white #CCC9AD blue #3333AA
 
 body {
 	background-color: black;
-	color: #CCC9AD;
+	color: #F7F4EB;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: x-large;
 	word-wrap: break-word;
@@ -21,19 +21,19 @@ footer, nav {
 }
 
 a:link {
-	color: #3333AA;
+	color: #374DC6;
 }
 
 a:visited {
-	color: #CC2121;
+	color: #93161E;
 }
 
 a:hover {
-	color: #CCC9AD;
+	color: #F7F4EB;
 }
 
 a:active {
-	color: #CCC9AD;
+	color: #F7F4EB;
 }
 
 .link, #index, #random {
@@ -55,26 +55,26 @@ a:active {
 }
 
 .link, #index {
-	background-color: #CC2121;
+	background-color: #93161E;
 }
 
 #random {
-	background-color: #3333AA;
+	background-color: #374DC6;
 }
 
 .link:hover, #index:hover, #random:hover {
-	background-color: #CCC9AD;
+	background-color: #F7F4EB;
 	transition: 0s;
 }
 
 .link:hover, #index:hover {
-	text-shadow: 0 0 0.5ch #CC2121;
-	box-shadow: 0 0 1ch #CC2121;
+	text-shadow: 0 0 0.5ch #93161E;
+	box-shadow: 0 0 1ch #93161E;
 }
 
 #random:hover {
-	text-shadow: 0 0 0.5ch #3333AA;
-	box-shadow: 0 0 1ch #3333AA;
+	text-shadow: 0 0 0.5ch #374DC6;
+	box-shadow: 0 0 1ch #374DC6;
 }
 
 iframe {
@@ -128,24 +128,24 @@ table, th, td {
 }
 
 th {
-	background-color: #CC2121;
+	background-color: #93161E;
 	color: black;
 	font-style: bold;
-	border-color: #CCC9AD;
+	border-color: #F7F4EB;
 	text-align: center;
 }
 
 th {
-	border-bottom: 5px solid #CCC9AD;
+	border-bottom: 5px solid #F7F4EB;
 }
 
 em {
 	font-style: inherit;
-	background-color: #3333AA;
+	background-color: #374DC6;
 }
 
 mark {
-	background-color: #3333AA;
+	background-color: #374DC6;
 	color: inherit;
 }
 
@@ -160,7 +160,7 @@ mark {
 }
 
 .email blockquote, .memo blockquote {
-	border-left: solid #3333AA 2px; 
+	border-left: solid #374DC6 2px; 
 	padding-left: 2ch;
 	margin-left: 0;
 }
